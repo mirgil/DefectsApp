@@ -19,6 +19,7 @@ namespace DefectsApp
             var app = builder.Build();
 
 
+            
             app.MapControllers();
             // Migrate latest database changes during startup
             using (var scope = app.Services.CreateScope())
