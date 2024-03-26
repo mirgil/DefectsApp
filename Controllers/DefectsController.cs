@@ -13,6 +13,7 @@ namespace DefectsApp
         public DefectsController(DefectsContext ctx)
         {
             _dbCtx = ctx;
+            
         }
 
         [EnableQuery]
